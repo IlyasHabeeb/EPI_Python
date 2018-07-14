@@ -23,4 +23,6 @@ def better_parity(x):
         #bit-fiddling trick
         x = x & x-1 #clears the lowest bit 1 (i.e., changes it to 0)
 
-    return x
+    return flag
+
+print(better_parity(9))
